@@ -13,9 +13,7 @@ const style = {
     xs: "90%",
     sm: 500,
   },
-  bgcolor: "white",
-  borderRadius: "12px", // Updated border radius
-  boxShadow: "0 16px 32px rgba(0, 0, 0, 0.2)", // Subtle shadow
+ 
   p: 4,
 };
 
