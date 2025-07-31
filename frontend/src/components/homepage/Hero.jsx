@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="pt-24 pb-16 md:pt-36 md:pb-24 text-center relative z-10 overflow-hidden">
+    <section className="pt-24 pb-16 md:pt-36 md:pb-20 text-center relative z-10 overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 z-[-1]">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/3 w-full max-w-4xl h-96 bg-gradient-to-r from-indigo-200 to-purple-200 rounded-full blur-3xl opacity-20"></div>
@@ -16,7 +16,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-4xl mx-auto"
+          className="max-w-4xl mx-auto mt-12"
         >
           <motion.div
             initial={{ scale: 0.9 }}
